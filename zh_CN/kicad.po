@@ -102,6 +102,8 @@ msgid ""
 "Unable to calculate the board outlines.\n"
 "Therefore use the board boundary box."
 msgstr ""
+"无法计算电路板外框. \n"
+"因此，使用该板边界框"
 
 #: 3d-viewer/3d_draw_board_body.cpp:369
 msgid "Build board body"
@@ -133,7 +135,7 @@ msgstr "基板板材颜色"
 
 #: 3d-viewer/3d_frame.cpp:887 3d-viewer/3d_toolbar.cpp:219
 msgid "Solder Paste Color"
-msgstr ""
+msgstr "焊锡膏颜色"
 
 #: 3d-viewer/3d_toolbar.cpp:52
 msgid "Reload board"
@@ -145,7 +147,7 @@ msgstr "复制3D图形到剪切板"
 
 #: 3d-viewer/3d_toolbar.cpp:64
 msgid "Set display options, and some layers visibility"
-msgstr ""
+msgstr "设置显示选项，和一些图层可见性"
 
 #: 3d-viewer/3d_toolbar.cpp:68 common/zoom.cpp:248 eeschema/tool_viewlib.cpp:75
 #: gerbview/toolbars_gerber.cpp:77 pagelayout_editor/toolbars_pl_editor.cpp:78
@@ -216,7 +218,7 @@ msgstr "向下移动"
 
 #: 3d-viewer/3d_toolbar.cpp:122
 msgid "Enable/Disable orthographic projection"
-msgstr ""
+msgstr "启用/禁用正投影"
 
 #: 3d-viewer/3d_toolbar.cpp:135 cvpcb/menubar.cpp:141 eeschema/menubar.cpp:506
 #: eeschema/menubar_libedit.cpp:283 eeschema/tool_viewlib.cpp:267
@@ -287,7 +289,7 @@ msgstr "模型显示"
 
 #: 3d-viewer/3d_toolbar.cpp:188
 msgid "Render Material Properties"
-msgstr ""
+msgstr "渲染材质属性"
 
 #: 3d-viewer/3d_toolbar.cpp:192
 msgid "Show Model Bounding Boxes"
@@ -529,11 +531,11 @@ msgstr "mm"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:82
 msgid "BPP:"
-msgstr ""
+msgstr "BPP:"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:90
 msgid "bits"
-msgstr ""
+msgstr "bits"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:97
 msgid "Resolution:"
@@ -542,11 +544,11 @@ msgstr "分辨率："
 #: bitmap2component/bitmap2cmp_gui_base.cpp:101
 #: bitmap2component/bitmap2cmp_gui_base.cpp:106
 msgid "300"
-msgstr ""
+msgstr "300"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:111
 msgid "DPI"
-msgstr ""
+msgstr "DPI"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:121
 msgid "Load Bitmap"
@@ -561,6 +563,8 @@ msgid ""
 "Create a library file for Eeschema\n"
 "This library contains only one component: logo"
 msgstr ""
+"创建一个原理图库文件"
+"这个库只包含一个组件 :logo"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:129
 msgid "Eeschema (.lib file)"
@@ -629,6 +633,8 @@ msgid ""
 "Adjust the level to convert the greyscale picture to a black and white "
 "picture."
 msgstr ""
+"调整灰度图片颜色为黑白二值化颜色格式"
+"图片"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:150
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:348
@@ -658,6 +664,9 @@ msgid ""
 "The 2 invisible fields reference and value are always placed on the silk "
 "screen layer."
 msgstr ""
+"选择板层来放置轮廓\n"
+"放置在参考层或丝印层上"
+"丝印层"
 
 #: common/base_screen.cpp:188
 msgid "User Grid"
@@ -675,19 +684,19 @@ msgstr "网格: %.2f mils (%.4f mm)"
 
 #: common/base_units.cpp:160
 msgid " mils"
-msgstr ""
+msgstr "mils"
 
 #: common/base_units.cpp:160
 msgid " in"
-msgstr ""
+msgstr "in"
 
 #: common/base_units.cpp:162 common/base_units.cpp:249
 msgid " mm"
-msgstr ""
+msgstr "mm"
 
 #: common/base_units.cpp:245
 msgid " \""
-msgstr ""
+msgstr "\"
 
 #: common/base_units.cpp:253
 msgid " deg"
