@@ -774,7 +774,7 @@ msgstr "无法创建备份文件 <%s>"
 
 #: common/basicframe.cpp:725
 msgid "The auto save file could not be renamed to the board file name."
-msgstr ""
+msgstr "这是自动保存文件无法为其重新命名"
 
 #: common/block_commande.cpp:68
 msgid "Block Move"
@@ -826,7 +826,7 @@ msgstr "作者信息"
 
 #: common/common.cpp:140
 msgid "\""
-msgstr ""
+msgstr "\"
 
 #: common/common.cpp:171 common/dialogs/dialog_page_settings.cpp:469
 #: pagelayout_editor/pl_editor_frame.cpp:463
@@ -850,7 +850,7 @@ msgstr "单位"
 
 #: common/common.cpp:198
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: common/common.cpp:209 pcbnew/dialogs/dialog_create_array_base.cpp:219
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:63
@@ -861,7 +861,7 @@ msgstr "度"
 #: common/common.cpp:414
 #, c-format
 msgid "Cannot make path '%s' absolute with respect to '%s'."
-msgstr ""
+msgstr "路径'%s'不能与'%s'相同"
 
 #: common/common.cpp:432
 #, c-format
@@ -917,39 +917,39 @@ msgstr "官方网站"
 
 #: common/dialog_about/AboutDialog_main.cpp:155
 msgid "The original site of the KiCad project founder"
-msgstr ""
+msgstr "这是 KiCad最新的网站"
 
 #: common/dialog_about/AboutDialog_main.cpp:159
 msgid "Developer's website on Launchpad"
-msgstr ""
+msgstr "开发人员在 Launchpad "
 
 #: common/dialog_about/AboutDialog_main.cpp:163
 msgid "Repository with additional component libraries"
-msgstr ""
+msgstr "附加的存储组件库"
 
 #: common/dialog_about/AboutDialog_main.cpp:170
 msgid "Contribute to KiCad"
-msgstr ""
+msgstr "帮助 KiCAD"
 
 #: common/dialog_about/AboutDialog_main.cpp:177
 msgid "Report bugs if you found any"
-msgstr ""
+msgstr "如果发现任何错误请报告"
 
 #: common/dialog_about/AboutDialog_main.cpp:181
 msgid "File an idea for improvement"
-msgstr ""
+msgstr "改进文件的想法"
 
 #: common/dialog_about/AboutDialog_main.cpp:185
 msgid "KiCad links to user groups, tutorials and much more"
-msgstr ""
+msgstr "连接kicad用户组，获取教程以及更多内容"
 
 #: common/dialog_about/AboutDialog_main.cpp:199
 msgid "The complete KiCad EDA Suite is released under the"
-msgstr ""
+msgstr "完整的kicad EDA套件发布"
 
 #: common/dialog_about/AboutDialog_main.cpp:201
 msgid "GNU General Public License (GPL) version 3 or any later version"
-msgstr ""
+msgstr "GNU通用公共许可证（GPL）第3版或更高版本"
 
 #: common/dialog_about/dialog_about.cpp:84
 msgid "Information"
@@ -1061,12 +1061,16 @@ msgid ""
 "<b>KIGITHUB</b> is used by KiCad to define the URL of the repository of the "
 "official KiCad libraries."
 msgstr ""
+"<b> KIGITHUB</b>是用于KiCad的定义的版本库的URL"
+"官方KiCad库"
 
 #: common/dialogs/dialog_env_var_config.cpp:267
 msgid ""
 "<b>KISYS3DMOD</b> is the base path of system footprint 3D shapes (.3Dshapes "
 "folders)."
 msgstr ""
+"<b> KISYS3DMOD</b>是系统占用的3D模型的基本路径 (.3D模型”
+"文件夹)"
 
 #: common/dialogs/dialog_env_var_config.cpp:270
 msgid ""
@@ -1089,6 +1093,8 @@ msgid ""
 "<b>KICAD_PTEMPLATES</b> is optional and can be defined if you want to create "
 "your own project templates folder."
 msgstr ""
+"<b> kicad_ptemplates </b>是可选的,可以被定义,如果你想创建"
+"您自己的项目模板文件夹"
 
 #: common/dialogs/dialog_env_var_config.cpp:282
 msgid "Environment Variable Help"
@@ -1218,6 +1224,8 @@ msgid ""
 "<%s> is already assigned to \"%s\" in section \"%s\". Are you sure you want "
 "to change its assignment?"
 msgstr ""
+"<%s> 已经在分配变量 \"%s\" 中 \"%s\"". 你确定需要 "
+"改变它"
 
 #: common/dialogs/dialog_hotkeys_editor.cpp:375
 msgid "Confirm change"
